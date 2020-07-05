@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/shade"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can Share!"
+        android:textSize="30sp"
+        android:fontFamily="serif"
+        android:paddingTop="10sp"
+        android:textColor="#4713A3"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30sp"
+        android:fontFamily="serif"
+        android:text="You can Report!"
+        android:textColor="#650B04"
+        android:textSize="30sp" />
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    app:cardCornerRadius="5dp">
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Choose an option"
+        android:textSize="20sp"
+        android:textColor="#F6E766"
+        android:fontFamily="serif"
+       android:background="@drawable/buttonbg"
+        android:gravity="center"
+        android:id="@+id/btn"/>
+</androidx.cardview.widget.CardView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/bg"/>
+</LinearLayout>
